@@ -42,6 +42,14 @@ class PipelineSpec extends ObjectBehavior
         $this->shouldThrow(InvalidArgumentException::class)->during('__construct', [new StageClassWithoutMethod()]);
     }
 
+    function it_should_receive_variables()
+    {
+        $this->pipe(CallableStage::forCallable(function ($p, $num) { return $p + 2 + $num; }))
+            ->pipe(CallableStage::forCallable(function ($p) { return $p * 10; }));
+
+        $this->process(1, 10)->shouldBe(40);
+    }
+
     function it_should_execute_operations_sequential()
     {
         $this->beConstructedWith([
