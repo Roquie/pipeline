@@ -37,6 +37,11 @@ class PipelineSpec extends ObjectBehavior
         $this->pipe($operation)->process(1)->shouldBe(2);
     }
 
+    function it_should_process_method_not_found()
+    {
+        $this->shouldThrow(InvalidArgumentException::class)->during('__construct', [new StageClassWithoutMethod()]);
+    }
+
     function it_should_execute_operations_sequential()
     {
         $this->beConstructedWith([
