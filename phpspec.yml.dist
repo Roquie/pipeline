@@ -1,8 +1,8 @@
 ---
 suites:
     pipeline_suite:
-        namespace: League\Pipeline
-        psr4_prefix: League\Pipeline
+        namespace: Roquie\Pipeline
+        psr4_prefix: Roquie\Pipeline
 extensions:
     - PhpSpec\Extension\CodeCoverageExtension
 

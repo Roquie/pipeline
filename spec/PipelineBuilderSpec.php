@@ -1,10 +1,10 @@
 <?php
 
-namespace spec\League\Pipeline;
+namespace spec\Roquie\Pipeline;
 
-use League\Pipeline\CallableStage;
-use League\Pipeline\PipelineBuilder;
-use League\Pipeline\PipelineInterface;
+use Roquie\Pipeline\CallableStage;
+use Roquie\Pipeline\PipelineBuilder;
+use Roquie\Pipeline\PipelineInterface;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 

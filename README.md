@@ -1,4 +1,4 @@
-# League\Pipeline
+# Roquie\Pipeline
 
 [![Author](http://img.shields.io/badge/author-@frankdejonge-blue.svg?style=flat-square)](https://twitter.com/frankdejonge)
 [![Build Status](https://img.shields.io/travis/thephpleague/pipeline/master.svg?style=flat-square)](https://travis-ci.org/thephpleague/pipeline)
@@ -46,8 +46,8 @@ pipelines easy to reuse, and minimizes side-effects.
 ## Simple Example
 
 ```php
-use League\Pipeline\Pipeline;
-use League\Pipeline\StageInterface;
+use Roquie\Pipeline\Pipeline;
+use Roquie\Pipeline\StageInterface;
 
 class TimesTwoStage implements StageInterface
 {
@@ -124,7 +124,7 @@ The pipeline builders collect stages and allow you to create a pipeline at
 any given time.
 
 ```php
-use League\Pipeline\PipelineBuilder;
+use Roquie\Pipeline\PipelineBuilder;
 
 // Prepare the builder
 $pipelineBuilder = (new PipelineBuilder)

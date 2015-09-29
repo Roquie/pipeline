@@ -1,5 +1,5 @@
 {
-  "name": "league/pipeline",
+  "name": "roquie/pipeline",
   "description": "A plug and play pipeline implementation.",
   "keywords": [
     "pipeline", "pattern", "sequential", "composition", "design pattern"
@@ -9,11 +9,15 @@
     {
       "name": "Frank de Jonge",
       "email": "info@frenky.net"
+    },
+    {
+      "name": "Roquie",
+      "email": "roquie0@gmail.com"
     }
   ],
   "autoload": {
       "psr-4": {
-          "League\\Pipeline\\": "src"
+          "Roquie\\Pipeline\\": "src"
       }
   },
   "require": {

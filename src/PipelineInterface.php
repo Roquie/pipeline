@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Pipeline;
+namespace Roquie\Pipeline;
 
 interface PipelineInterface extends StageInterface
 {
