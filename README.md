@@ -3,6 +3,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Packagist Version](https://img.shields.io/packagist/v/roquie/pipeline.svg?style=flat-square)](https://packagist.org/packages/roquie/pipeline)
 [![Total Downloads](https://img.shields.io/packagist/dt/roquie/pipeline.svg?style=flat-square)](https://packagist.org/packages/roquie/pipeline)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://php.net/)
 
 This package provides a pipeline pattern implementation.
 
